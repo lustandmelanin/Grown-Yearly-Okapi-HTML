@@ -1,0 +1,145 @@
+.hero17-header78 {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: #a7c0cc;
+}
+ 
+.hero17-column {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-unit);
+}
+ 
+.hero17-image {
+  width: 692px;
+  height: 253px;
+  object-fit: cover;
+}
+ 
+.hero17-content1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.hero17-text10 {
+  text-align: center;
+}
+ 
+.hero17-actions {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-layout-space-unit);
+}
+ 
+.hero17-text11 {
+  text-decoration: none;
+}
+ 
+.hero17-text12 {
+  text-decoration: none;
+}
+ 
+.hero17-content2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.hero17-row-container1 {
+  width: 100%;
+}
+ 
+.hero17-placeholder-image1 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.hero17-placeholder-image2 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.hero17-placeholder-image3 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.hero17-row-container2 {
+  width: 100%;
+}
+ 
+.hero17-placeholder-image4 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.hero17-placeholder-image5 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.hero17-placeholder-image6 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.hero17-fragment1 {
+  display: contents;
+}
+ 
+.hero17-text13 {
+  display: inline-block;
+  font-family: "Arial Black";
+}
+ 
+.hero17-fragment2 {
+  display: contents;
+}
+ 
+.hero17-text21 {
+  display: inline-block;
+}
+ 
+.hero17-fragment3 {
+  display: contents;
+}
+ 
+.hero17-text22 {
+  display: inline-block;
+}
+ 
+@media(max-width: 767px) {
+  .hero17-content2 {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .hero17-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero17-button1 {
+    width: 100%;
+  }
+  .hero17-button2 {
+    width: 100%;
+  }
+}
